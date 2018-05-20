@@ -5,7 +5,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
-    <title>60 Hour Shakespeare</title>
+    <title>60 Hour Shakespeare Presents - Much Ado About Nothing</title>
 
     <!-- Bootstrap -->
     <link href="bower_components/boostrap/dist/css/bootstrap.min.css" rel="stylesheet">
@@ -20,32 +20,68 @@
     <![endif]-->
 </head>
 <body>
-<!-- body content here -->
-<!--[if IE 8]>
-<div class="browser-compatibility">
-    Optimised for Internet Explorer 9 (or later), Firefox, Google Chrome and Safari.
-</div>
-<![endif]-->
+    <!-- body content here -->
+    <!--[if IE 8]>
+    <div class="browser-compatibility">
+        Optimised for Internet Explorer 9 (or later), Firefox, Google Chrome and Safari.
+    </div>
+    <![endif]-->
 
-<!--[if lt IE 8]>
-<div class="browser-compatibility">
-    Compatible with Internet Explorer 8 (or later), Firefox, Google Chrome and Safari.
-</div>
-<![endif]-->
+    <!--[if lt IE 8]>
+    <div class="browser-compatibility">
+        Compatible with Internet Explorer 8 (or later), Firefox, Google Chrome and Safari.
+    </div>
+    <![endif]-->
 
-<!-- Non-bootstrap related code -->
-<div class="container">
+    <!-- Fixed navbar -->
+    <nav class="navbar navbar-default navbar-fixed-top">
+        <div class="container">
+            <div class="navbar-header">
+                <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
+                    <span class="sr-only">Toggle navigation</span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                </button>
+                <a class="navbar-brand" href="#">60 Hour Shakespeare</a>
+            </div>
+            <div id="navbar" class="collapse navbar-collapse">
+                <ul class="nav navbar-nav">
+                    <li class="active"><a href="#">Home</a></li>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#contact">Cast Biographies</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                </ul>
+            </div><!--/.nav-collapse -->
+        </div>
+    </nav>
 
-</div>
+    <!-- Body -->
+    <!-- Begin page content -->
+    <div class="container">
+        <div class="page-header">
+            <h1>Much Ado About Nothing</h1>
+        </div>
+        <p class="lead">Pin a fixed-height footer to the bottom of the viewport in desktop browsers with this custom HTML and CSS. A fixed navbar has been added with <code>padding-top: 60px;</code> on the <code>body &gt; .container</code>.</p>
+        <p>Back to <a href="../sticky-footer">the default sticky footer</a> minus the navbar.</p>
+    </div>
 
-<!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
-<script src="bower_components/jquery/dist/jquery.min.js"></script>
-<!-- Include all compiled plugins (below), or include individual files as needed -->
-<script src="bower_components/boostrap/dist/js/bootstrap.min.js"></script>
+    <footer class="footer">
+        <div class="container">
+            <p class="text-muted">Join us in 1983 for a unique take on Shakespeare's classic comedy rehearsed and performed in under 60 hours.</p>
+            <p class="text-muted2">£10 Tickets | £6 Concessions - All proceeds go to charity</p>
+        </div>
+    </footer>
 
-<!-- Non-bootstrap related JavaScript libraries -->
-<script src="bower_components/lodash/lodash.js"></script>
-<!-- Module specific files -->
-<script src="js/60hour.js"></script>
+    <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+    <script src="bower_components/jquery/dist/jquery.min.js"></script>
+    <!-- Include all compiled plugins (below), or include individual files as needed -->
+    <script src="bower_components/boostrap/dist/js/bootstrap.min.js"></script>
+
+    <!-- Non-bootstrap related JavaScript libraries -->
+    <script src="bower_components/lodash/lodash.js"></script>
+    <!-- Module specific files -->
+    <script src="js/60hour.js"></script>
+
 </body>
 </html>

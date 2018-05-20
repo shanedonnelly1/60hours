@@ -1,1 +1,76 @@
-/*Empty*/
+/* Sticky footer styles
+-------------------------------------------------- */
+html {
+    position: relative;
+    min-height: 100%;
+}
+body {
+    /* Margin bottom by footer height */
+    margin-bottom: 60px;
+    color: #faebd9;
+    background: #1d2c44 url("../images/Backgroud.png") 30px 70px no-repeat;
+}
+
+h1 {
+    color: #ec1b2e;
+    text-transform: uppercase;
+}
+
+.navbar {
+    background-color: #ec1b2e;
+    color: #f6e7d3;
+}
+
+.navbar-default .navbar-brand,
+.navbar-default .navbar-nav li a {
+    color: #f6e7d3;
+}
+
+.navbar-default .navbar-nav > .active > a {
+    color: #faebd9;
+    background-color: #1d2c44;
+}
+
+.footer {
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    /* Set the fixed height of the footer here */
+    height: 110px;
+    background-color: #ec1b2e;
+    color: #f6e7d3;
+}
+
+.footer .container {
+    background: url("../images/bhf_logo2.png") right top no-repeat transparent;
+    height: 100%;
+}
+
+.footer .text-muted {
+    color: #f6e7d3;
+}
+
+.footer .text-muted2 {
+    color: #feffff;
+}
+
+
+/* Custom page CSS
+-------------------------------------------------- */
+/* Not required for template or sticky footer method. */
+
+body > .container {
+    padding: 60px 15px 0;
+}
+.container .text-muted {
+    margin: 20px 0;
+}
+
+.footer > .container {
+    padding-right: 15px;
+    padding-left: 15px;
+}
+
+code {
+    font-size: 80%;
+}
