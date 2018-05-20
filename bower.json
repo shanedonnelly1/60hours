@@ -1,0 +1,15 @@
+{
+  "name": "60hourshakespeare",
+  "version": "0.1",
+  "description": "Website for 60 Hour Shakespear",
+  "homepage": "www.60hourshakespear.com",
+  "private": true,
+  "dependencies": {
+    "jquery": "~1.12.4",
+    "lodash": "~4.17.10",
+    "boostrap": "~v3.3.5",
+    "html5shiv": "~3.7.3",
+    "respond": "~1.4.2"
+  }
+}
+
