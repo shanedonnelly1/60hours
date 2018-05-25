@@ -8,12 +8,17 @@ body {
     /* Margin bottom by footer height */
     margin-bottom: 60px;
     color: #faebd9;
-    background: #1d2c44 url("../images/Backgroud.png") 30px 70px no-repeat;
+    /*background: #1d2c44 url("../images/Backgroud.png") 30px 70px no-repeat;*/
+    background: #1d2c44;
 }
 
 h1 {
     color: #ec1b2e;
     text-transform: uppercase;
+}
+
+.page-header {
+    border-bottom: none;
 }
 
 .navbar {
@@ -46,7 +51,7 @@ h1 {
     height: 100%;
 }
 
-.footer .text-muted {
+.footer .text-muted, .footer .text-muted a {
     color: #f6e7d3;
 }
 
