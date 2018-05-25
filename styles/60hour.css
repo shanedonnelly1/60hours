@@ -47,7 +47,7 @@ h1 {
 }
 
 .footer .container {
-    background: url("../images/bhf_logo2.png") right top no-repeat transparent;
+    /*background: url("../images/bhf_logo2.png") right top no-repeat transparent;*/
     height: 100%;
 }
 
