@@ -4,12 +4,20 @@ html {
     position: relative;
     min-height: 100%;
 }
+
+@font-face {
+    font-family: LeagueSpartan;
+    src: url("../resources/LeagueSpartan-Bold.otf") format("opentype");
+    font-weight: normal;
+}
+
 body {
     /* Margin bottom by footer height */
     margin-bottom: 60px;
     color: #faebd9;
     /*background: #1d2c44 url("../images/Backgroud.png") 30px 70px no-repeat;*/
     background: #1d2c44;
+    font-family: LeagueSpartan,"Helvetica Neue",Helvetica,Arial,sans-serif;
 }
 
 h1 {
