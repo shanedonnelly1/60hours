@@ -8,8 +8,8 @@ The libraries this website uses are defined in the bower.json file.  To install 
 
 ## Run
 
-```npm install simplehttpserver -g```
-```simplehttpserver .```
+```npm install simplehttpserver -g
+simplehttpserver .```
 
 
 ## TODO
