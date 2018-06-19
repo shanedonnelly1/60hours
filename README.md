@@ -6,6 +6,12 @@ The libraries this website uses are defined in the bower.json file.  To install 
 
 ```bower install```
 
+## Run
+
+```npm install simplehttpserver -g```
+```simplehttpserver .```
+
+
 ## TODO
 
 * Add SEO meta tags to html
