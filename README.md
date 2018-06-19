@@ -8,8 +8,12 @@ The libraries this website uses are defined in the bower.json file.  To install 
 
 ## Run
 
-```npm install simplehttpserver -g
-simplehttpserver .```
+To run them you'll need [npm](https://www.npmjs.com) installed locally.
+```npm install simplehttpserver -g```
+
+## Demo
+
+```simplehttpserver .```
 
 
 ## TODO
