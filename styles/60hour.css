@@ -14,14 +14,14 @@ html {
 body {
     /* Margin bottom by footer height */
     margin-bottom: 60px;
-    color: #faebd9;
+    color: black;
     /*background: #1d2c44 url("../images/Backgroud.png") 30px 70px no-repeat;*/
-    background: #1d2c44;
+    background: white;
     font-family: LeagueSpartan,"Helvetica Neue",Helvetica,Arial,sans-serif;
 }
 
 h1 {
-    color: #ec1b2e;
+    color: #e93f33;
     text-transform: uppercase;
 }
 
@@ -30,18 +30,18 @@ h1 {
 }
 
 .navbar {
-    background-color: #ec1b2e;
-    color: #f6e7d3;
+    background-color: #e93f33;
+    color: white;
 }
 
 .navbar-default .navbar-brand,
 .navbar-default .navbar-nav li a {
-    color: #f6e7d3;
+    color: white;
 }
 
 .navbar-default .navbar-nav > .active > a {
-    color: #faebd9;
-    background-color: #1d2c44;
+    color: black;
+    background-color: white;
 }
 
 .footer {
@@ -50,7 +50,7 @@ h1 {
     width: 100%;
     /* Set the fixed height of the footer here */
     height: 110px;
-    background-color: #ec1b2e;
+    background-color: #e93f33;
     color: #f6e7d3;
 }
 
