@@ -29,7 +29,8 @@ h1 {
     border-bottom: none;
 }
 
-.navbar {
+.navbar,
+.navbar-default .navbar-nav li ul.dropdown-menu {
     background-color: #e93f33;
     color: white;
 }
