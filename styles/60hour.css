@@ -88,3 +88,9 @@ body > .container {
 code {
     font-size: 80%;
 }
+
+li a.social {
+    border: 0;
+    margin: 0;
+    padding: 0;
+}
